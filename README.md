@@ -83,16 +83,16 @@ assign  f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a))));
 endmodule
 
 ```
-## Truthtable(f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a)))))
+## Truthtable(f=(((C.B'.A)+(D.C'.A)+(C.B'.A))')')
 ![ex4](https://user-images.githubusercontent.com/94154683/167334723-2a3b8fd3-17f7-40ea-9dc0-d85ba964a01c.png)
 
 
-##  RTL realization(f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a)))))
+##  RTL realization(f=(((C.B'.A)+(D.C'.A)+(C.B'.A))')')
 
 
 ![WhatsApp Image 2022-05-07 at 7 00 39 PM](https://user-images.githubusercontent.com/94154683/167332030-767efe56-cb16-4de0-90db-664f3c5df6f7.jpeg)
 
-## Timing diagram (f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a)))))
+## Timing diagram (f=(((C.B'.A)+(D.C'.A)+(C.B'.A))')')
 
 
 ![WhatsApp Image 2022-05-07 at 9 47 31 AM (1)](https://user-images.githubusercontent.com/94154683/167332093-0ff4add8-3895-4204-afed-f10780583a1b.jpeg)
