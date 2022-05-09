@@ -39,6 +39,23 @@ A universal gate is a logic gate which can implement any Boolean function withou
 Program to design a Implementation of combinational logic using universal gates-  and verify its truth table in quartus using Verilog programming.
 Developed by: EASWAR.J
 RegisterNumber:  212221230024
+
+
+NAND GATE PROGRAM:
+
+module un1(a,b,c,d,f);
+input a,b,c,d;
+output f;
+assign  f=((~(~c&b&a))&(~(~d&c&a))&(~(c&(~b)&a)));
+endmodule
+
+NOR GATE PROGRAM:
+module nor1(a,b,c,d,f);
+input a,b,c,d;
+output f;
+assign  f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a))));
+endmodule
+
 ```
 
 ## Output:
