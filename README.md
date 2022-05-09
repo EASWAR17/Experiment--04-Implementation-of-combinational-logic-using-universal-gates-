@@ -98,4 +98,4 @@ endmodule
 ![WhatsApp Image 2022-05-07 at 9 47 31 AM (1)](https://user-images.githubusercontent.com/94154683/167332093-0ff4add8-3895-4204-afed-f10780583a1b.jpeg)
 
 ## Result:
- 
+The given logic function is implemented using NAND and NOR gates and it is verified successfully in Quartus using Verilog programming.
