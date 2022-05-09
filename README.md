@@ -61,8 +61,8 @@ endmodule
 
 
 ##  RTL realization
-![WhatsApp Image 2022-05-07 at 9 34 21 AM](https://user-images.githubusercontent.com/94154683/167332018-bb71e315-77e9-4b5e-8c11-043630d354dd.jpeg)
 
+![ex4 1](https://user-images.githubusercontent.com/94154683/167334936-06c1ba35-52f3-48a9-be5a-af9995e151e3.jpeg)
 
 ## Timing diagram 
 ![WhatsApp Image 2022-05-07 at 9 47 31 AM](https://user-images.githubusercontent.com/94154683/167332078-cb41acfb-4a3c-4355-b313-4183af3935a5.jpeg)
