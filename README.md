@@ -70,14 +70,37 @@ endmodule
 ![WhatsApp Image 2022-05-07 at 9 34 21 AM](https://user-images.githubusercontent.com/94154683/167332018-bb71e315-77e9-4b5e-8c11-043630d354dd.jpeg)
 
 
-![WhatsApp Image 2022-05-07 at 7 00 39 PM](https://user-images.githubusercontent.com/94154683/167332030-767efe56-cb16-4de0-90db-664f3c5df6f7.jpeg)
-
-
 ## Timing diagram 
 ![WhatsApp Image 2022-05-07 at 9 47 31 AM](https://user-images.githubusercontent.com/94154683/167332078-cb41acfb-4a3c-4355-b313-4183af3935a5.jpeg)
 
-![WhatsApp Image 2022-05-07 at 9 47 31 AM (1)](https://user-images.githubusercontent.com/94154683/167332093-0ff4add8-3895-4204-afed-f10780583a1b.jpeg)
 
+## Program:
+```
+Program to design a Implementation of combinational logic using universal gates-  and verify its truth table in quartus using Verilog programming.
+Developed by: EASWAR.J
+RegisterNumber:  212221230024
+
+
+NOR GATE PROGRAM:
+module nor1(a,b,c,d,f);
+input a,b,c,d;
+output f;
+assign  f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a))));
+endmodule
+
+```
+## Truthtable
+
+
+##  RTL realization
+
+
+![WhatsApp Image 2022-05-07 at 7 00 39 PM](https://user-images.githubusercontent.com/94154683/167332030-767efe56-cb16-4de0-90db-664f3c5df6f7.jpeg)
+
+## Timing diagram 
+
+
+![WhatsApp Image 2022-05-07 at 9 47 31 AM (1)](https://user-images.githubusercontent.com/94154683/167332093-0ff4add8-3895-4204-afed-f10780583a1b.jpeg)
 
 ## Result:
  
