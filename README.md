@@ -49,12 +49,6 @@ output f;
 assign  f=((~(~c&b&a))&(~(~d&c&a))&(~(c&(~b)&a)));
 endmodule
 
-NOR GATE PROGRAM:
-module nor1(a,b,c,d,f);
-input a,b,c,d;
-output f;
-assign  f=(~(~((c&(~b)&a)|(d&(~c)&a)|(c&(~b)&a))));
-endmodule
 
 ```
 
@@ -90,6 +84,7 @@ endmodule
 
 ```
 ## Truthtable
+![ex4](https://user-images.githubusercontent.com/94154683/167334723-2a3b8fd3-17f7-40ea-9dc0-d85ba964a01c.png)
 
 
 ##  RTL realization
